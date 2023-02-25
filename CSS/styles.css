@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: My-font;
+}
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: My-font;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+header {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px 15% 5px;
+}
+
+.logo {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: serif;
+}
+.sr-only{
+    position: absolute;
+    width: 1px;
+    overflow: hidden;
+}
+.mobile-nav-toggle{
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #8f8f8f;
+}
+nav ul li a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+/* HOMEPAGE SECTION */
+
+.flex-container {
+    display: grid;
+    width: 100%;
+    padding: 5px 15%;
+    height: 68vh;
+    margin-bottom: 4%;
+}
+
+.home-image {
+    background-image: url(../assets/images/image-web-3-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 5;
+    grid-row: 1;
+    width: 39rem;
+    height: 15rem;
+    margin-right: 2%;
+}
+
+.side-blog {
+  grid-column: 6;
+  grid-row: 1 / span 2;
+  width: 18rem;
+  background-color: hsl(240, 100%, 5%);
+  color: #fff;
+  padding: 25px 30px 15px;
+}
+.side-blog h1{
+    margin-bottom: 8%;
+    color: hsl(35, 77%, 62%);
+}
+.side-blog h4{
+    margin-bottom: 7%;
+    font-size: 0.97rem;
+    cursor: pointer;
+}
+.side-blog h4 a{
+     text-decoration: none;
+     color: #fff;
+}
+.side-blog h4 a:hover{
+    color:hsl(35, 77%, 62%) ;
+}
+.side-blog p{
+    font-size: 15px;
+}
+
+hr{
+    border-top: none;
+    margin: 9% 0;
+}
+.home-heading{
+    grid-row: 2;
+    width: 20rem;
+    height: 10rem;
+    padding: 0 15px;
+}
+.home-heading h1{
+    font-size: 45px;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+}
+.home-writeUp{
+    grid-row: 2;
+    width: 19rem;
+}
+.home-writeUp p{
+    font-size: 15px;
+    color: #8f8f8f;
+    line-height: 1.5;
+}
+.home-writeUp .btn{
+    padding: 15px 30px;
+    margin-top: 5%;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    letter-spacing: 3px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+.home-writeUp .btn:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+/* FOOTER */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 3% 0 1%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
