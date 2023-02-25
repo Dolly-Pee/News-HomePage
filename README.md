@@ -1,5 +1,3 @@
-# News-HomePage
-News Homepage one page website
 # Frontend Mentor - News homepage solution
 
 This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -127,7 +125,7 @@ i also want to keep developing my javaScript skills
 
 ### Useful resources
 
-- [side bar resources](https://www.example.com) - Kevin Powell youTube video helped me in creating my SideBar
+- [side bar resources](https://www.youtube.com/watch?v=HbBMp6yUXO0&t=953s) - Kevin Powell youTube video helped me in creating my SideBar
 
 ## Author
 
